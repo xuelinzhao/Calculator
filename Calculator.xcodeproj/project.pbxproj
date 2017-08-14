@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575E69E41F334F52005763C1 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575E69E31F334F52005763C1 /* CalculatorBrain.swift */; };
 		57BCCF971F32DA000045BEF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCCF961F32DA000045BEF0 /* AppDelegate.swift */; };
 		57BCCF991F32DA000045BEF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BCCF981F32DA000045BEF0 /* ViewController.swift */; };
 		57BCCF9C1F32DA000045BEF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BCCF9A1F32DA000045BEF0 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		575E69E31F334F52005763C1 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		57BCCF931F32DA000045BEF0 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BCCF961F32DA000045BEF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57BCCF981F32DA000045BEF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,12 +99,10 @@
 		57BCCF951F32DA000045BEF0 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				57BCCF961F32DA000045BEF0 /* AppDelegate.swift */,
+				57BCCFC41F32F4A60045BEF0 /* Supporting Files */,
 				57BCCF981F32DA000045BEF0 /* ViewController.swift */,
 				57BCCF9A1F32DA000045BEF0 /* Main.storyboard */,
-				57BCCF9D1F32DA000045BEF0 /* Assets.xcassets */,
-				57BCCF9F1F32DA000045BEF0 /* LaunchScreen.storyboard */,
-				57BCCFA21F32DA000045BEF0 /* Info.plist */,
+				575E69E31F334F52005763C1 /* CalculatorBrain.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -123,6 +123,17 @@
 				57BCCFB81F32DA010045BEF0 /* Info.plist */,
 			);
 			path = CalculatorUITests;
+			sourceTree = "<group>";
+		};
+		57BCCFC41F32F4A60045BEF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57BCCF961F32DA000045BEF0 /* AppDelegate.swift */,
+				57BCCF9D1F32DA000045BEF0 /* Assets.xcassets */,
+				57BCCF9F1F32DA000045BEF0 /* LaunchScreen.storyboard */,
+				57BCCFA21F32DA000045BEF0 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				575E69E41F334F52005763C1 /* CalculatorBrain.swift in Sources */,
 				57BCCF991F32DA000045BEF0 /* ViewController.swift in Sources */,
 				57BCCF971F32DA000045BEF0 /* AppDelegate.swift in Sources */,
 			);
@@ -423,6 +435,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.unimelb.xuelinzhao.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -436,6 +449,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.unimelb.xuelinzhao.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -516,6 +530,7 @@
 				57BCCFBD1F32DA010045BEF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57BCCFBE1F32DA010045BEF0 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +539,7 @@
 				57BCCFC01F32DA010045BEF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57BCCFC11F32DA010045BEF0 /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +548,7 @@
 				57BCCFC31F32DA010045BEF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
